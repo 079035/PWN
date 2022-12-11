@@ -1,5 +1,4 @@
-echo "#!/usr/bin/python3" > exp.py
-echo "from pwn import *" >> exp.py
+echo "from pwn import *" > exp.py
 echo "context.log_level='debug'" >> exp.py
 echo "context.arch='amd64'" >> exp.py
 echo "#context.terminal = ['tmux', 'splitw', '-h', '-F' '#{pane_pid}', '-P']" >> exp.py
@@ -12,4 +11,3 @@ echo "sl		= lambda a: 	p.sendline(a)">> exp.py
 echo "s 		= lambda a: 	p.send(a)">> exp.py
 echo "gdb.attach(p)">> exp.py
 echo "p.interactive()">> exp.py
-chmod +x exp.py
