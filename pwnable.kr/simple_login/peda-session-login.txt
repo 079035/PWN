@@ -1,2 +1,3 @@
-tbreak main
+break *0x8049402
+
 
