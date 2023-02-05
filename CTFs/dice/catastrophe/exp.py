@@ -24,7 +24,6 @@ def view(idx):
     sl("3")
     sl(str(idx))
 
-# https://github.com/shellphish/how2heap/blob/master/glibc_2.35/decrypt_safe_linking.c
 def decrypt(cipher):
     key = 0
     plain = 0
