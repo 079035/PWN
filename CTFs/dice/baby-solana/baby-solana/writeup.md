@@ -1,3 +1,8 @@
+---
+title: "Dice 23 Baby Solana"
+date: 2023-02-19 18:05:30 -0400
+categories: Pwn
+---
 # Baby Solana
 
 ## Remark
