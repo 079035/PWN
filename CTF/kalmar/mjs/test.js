@@ -1,13 +1,8 @@
 function hello() {
     print("hello world");
+    // ffi('int system(char *)')('/bin/sh');
 }
 
 hello();
-
-// (print + 1)[0] = 5;
-print((print + 1)[0]);
-print(print[1]);
-print(print[2]);
-print(print[3]);
 
 1;
