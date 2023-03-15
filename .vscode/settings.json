@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "charconv": "cpp",
+        "chrono": "cpp",
+        "format": "cpp",
+        "vector": "cpp",
+        "xlocnum": "cpp",
+        "xmemory": "cpp",
+        "xstring": "cpp"
+    }
+}
