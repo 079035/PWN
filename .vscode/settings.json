@@ -7,5 +7,6 @@
         "xlocnum": "cpp",
         "xmemory": "cpp",
         "xstring": "cpp"
-    }
+    },
+    "glassit.alpha": 220
 }
