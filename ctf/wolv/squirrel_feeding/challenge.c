@@ -14,19 +14,19 @@
 
 // Structs
 
-typedef struct map_entry {
-    char name[MAX_NAME_LEN];
-    size_t weight;
+typedef struct map_entry { // 24 bytes
+    char name[MAX_NAME_LEN]; // 16 bytes
+    size_t weight; // 8 bytes
 } map_entry;
 
-typedef struct map_data {
-    size_t bin_sizes[BIN_COUNT];
-    map_entry bins[BIN_COUNT][BIN_SIZE];
+typedef struct map_data { // 1040 bytes
+    size_t bin_sizes[BIN_COUNT]; // 80 bytes
+    map_entry bins[BIN_COUNT][BIN_SIZE]; // 960 bytes
 } map_data;
 
-typedef struct map {
-    map_data *data;
-    map_data local;
+typedef struct map { // 1048 bytes
+    map_data *data; // 8 bytes
+    map_data local; // 1040 bytes
 } map;
 
 // Globals
