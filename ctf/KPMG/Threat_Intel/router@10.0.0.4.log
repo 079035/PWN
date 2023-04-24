@@ -1,0 +1,297 @@
+. 2022-02-12 00:27:57.340 --------------------------------------------------------------------------
+. 2022-02-12 00:27:57.340 WinSCP Version 5.19.5 (Build 11933 2021-11-25) (OS 10.0.19041 - Windows 10 Enterprise)
+. 2022-02-12 00:27:57.340 Configuration: C:\Users\meg-a\Desktop\WinSCP-5.19.5-Portable\WinSCP.ini
+. 2022-02-12 00:27:57.340 Log level: Normal
+. 2022-02-12 00:27:57.340 Local account: QUAHOG\meg-a
+. 2022-02-12 00:27:57.340 Working directory: C:\Users\meg-a\Desktop\WinSCP-5.19.5-Portable
+. 2022-02-12 00:27:57.340 Process ID: 6028
+. 2022-02-12 00:27:57.356 Ancestor processes: explorer, ...
+. 2022-02-12 00:27:57.356 Command-line: "C:\Users\meg-a\Desktop\WinSCP-5.19.5-Portable\WinSCP.exe" 
+. 2022-02-12 00:27:57.356 Time zone: Current: GMT-6, Standard: GMT-6 (Central Standard Time), DST: GMT-5 (Central Daylight Time), DST Start: 3/13/2022, DST End: 11/6/2022
+. 2022-02-12 00:27:57.356 Login time: Saturday, February 12, 2022 12:27:57 AM
+. 2022-02-12 00:27:57.356 --------------------------------------------------------------------------
+. 2022-02-12 00:27:57.356 Session name: router@10.0.0.4 (Ad-Hoc site)
+. 2022-02-12 00:27:57.356 Host name: 10.0.0.4 (Port: 22)
+. 2022-02-12 00:27:57.356 User name: router (Password: Yes, Key file: No, Passphrase: No)
+. 2022-02-12 00:27:57.356 Tunnel: No
+. 2022-02-12 00:27:57.356 Transfer Protocol: SFTP (SCP)
+. 2022-02-12 00:27:57.356 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2022-02-12 00:27:57.356 Disable Nagle: No
+. 2022-02-12 00:27:57.356 Proxy: None
+. 2022-02-12 00:27:57.356 Send buffer: 262144
+. 2022-02-12 00:27:57.356 SSH protocol version: 2; Compression: No
+. 2022-02-12 00:27:57.356 Bypass authentication: No
+. 2022-02-12 00:27:57.356 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2022-02-12 00:27:57.356 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2022-02-12 00:27:57.356 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2022-02-12 00:27:57.356 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2022-02-12 00:27:57.356 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2022-02-12 00:27:57.356 Simple channel: Yes
+. 2022-02-12 00:27:57.356 Return code variable: Autodetect; Lookup user groups: Auto
+. 2022-02-12 00:27:57.356 Shell: default
+. 2022-02-12 00:27:57.356 EOL: LF, UTF: Auto
+. 2022-02-12 00:27:57.356 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2022-02-12 00:27:57.356 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2022-02-12 00:27:57.356 SFTP Bugs: Auto,Auto
+. 2022-02-12 00:27:57.356 SFTP Server: default
+. 2022-02-12 00:27:57.356 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2022-02-12 00:27:57.356 Cache directory changes: Yes, Permanent: Yes
+. 2022-02-12 00:27:57.356 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2022-02-12 00:27:57.356 DST mode: Unix
+. 2022-02-12 00:27:57.356 --------------------------------------------------------------------------
+. 2022-02-12 00:27:57.401 Looking up host "10.0.0.4" for SSH connection
+. 2022-02-12 00:27:57.401 Connecting to 10.0.0.4 port 22
+. 2022-02-12 00:27:57.433 We claim version: SSH-2.0-WinSCP_release_5.19.5
+. 2022-02-12 00:27:57.433 Remote version: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.2
+. 2022-02-12 00:27:57.433 Using SSH protocol version 2
+. 2022-02-12 00:27:57.450 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2022-02-12 00:27:57.528 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2022-02-12 00:27:57.544 Host key fingerprint is:
+. 2022-02-12 00:27:57.544 ssh-ed25519 255 29:68:9e:dd:65:3b:2c:1b:9e:69:15:11:6c:57:9f:24 Cp/W5hmKHuXuYRMLZXJeEbxa86cfxo5TxrTf4sAA9GQ=
+. 2022-02-12 00:27:57.576 Asking user:
+. 2022-02-12 00:27:57.576 **Continue connecting to an unknown server and add its host key to a cache?**
+. 2022-02-12 00:27:57.576 
+. 2022-02-12 00:27:57.576 The server's host key was not found in the cache. You have no guarantee that the server is the computer you think it is.
+. 2022-02-12 00:27:57.576 
+. 2022-02-12 00:27:57.576 The server's Ed25519 key details are:
+. 2022-02-12 00:27:57.576 
+. 2022-02-12 00:27:57.576     Algorithm:	ssh-ed25519 255
+. 2022-02-12 00:27:57.576     SHA-256:	Cp/W5hmKHuXuYRMLZXJeEbxa86cfxo5TxrTf4sAA9GQ=
+. 2022-02-12 00:27:57.576     MD5:	29:68:9e:dd:65:3b:2c:1b:9e:69:15:11:6c:57:9f:24
+. 2022-02-12 00:27:57.576 
+. 2022-02-12 00:27:57.576 If you trust this host, press Yes. To connect without adding host key to the cache, press No. To abandon the connection press Cancel. ()
+. 2022-02-12 00:27:59.339 Answer: Yes
+. 2022-02-12 00:27:59.339 Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] outbound encryption
+. 2022-02-12 00:27:59.339 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2022-02-12 00:27:59.339 Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] inbound encryption
+. 2022-02-12 00:27:59.339 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2022-02-12 00:27:59.339 Using username "router".
+. 2022-02-12 00:27:59.370 Server offered these authentication methods: publickey,password
+. 2022-02-12 00:27:59.370 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2022-02-12 00:27:59.370 Using stored password.
+. 2022-02-12 00:27:59.386 Sent password
+. 2022-02-12 00:27:59.402 Access granted
+. 2022-02-12 00:27:59.402 Opening main session channel
+. 2022-02-12 00:28:00.168 Opened main channel
+. 2022-02-12 00:28:00.168 Started a shell/command
+. 2022-02-12 00:28:00.231 --------------------------------------------------------------------------
+. 2022-02-12 00:28:00.231 Using SFTP protocol.
+. 2022-02-12 00:28:00.231 Doing startup conversation with host.
+> 2022-02-12 00:28:00.263 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2022-02-12 00:28:00.263 Type: SSH_FXP_VERSION, Size: 179, Number: -1
+. 2022-02-12 00:28:00.263 SFTP version 3 negotiated.
+. 2022-02-12 00:28:00.263 Unknown server extension posix-rename@openssh.com="1"
+. 2022-02-12 00:28:00.263 Supports statvfs@openssh.com extension version "2"
+. 2022-02-12 00:28:00.263 Unknown server extension fstatvfs@openssh.com="2"
+. 2022-02-12 00:28:00.263 Supports hardlink@openssh.com extension version "1"
+. 2022-02-12 00:28:00.263 Unknown server extension fsync@openssh.com="1"
+. 2022-02-12 00:28:00.263 Unknown server extension lsetstat@openssh.com="1"
+. 2022-02-12 00:28:00.263 We believe the server has signed timestamps bug
+. 2022-02-12 00:28:00.263 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2022-02-12 00:28:00.263 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2022-02-12 00:28:00.263 Getting current directory name.
+. 2022-02-12 00:28:00.263 Getting real path for '.'
+> 2022-02-12 00:28:00.263 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2022-02-12 00:28:00.263 Type: SSH_FXP_NAME, Size: 45, Number: 16
+. 2022-02-12 00:28:00.263 Real path is '/home/router'
+. 2022-02-12 00:28:00.356 Listing directory "/home/router".
+> 2022-02-12 00:28:00.356 Type: SSH_FXP_OPENDIR, Size: 21, Number: 267
+< 2022-02-12 00:28:00.356 Type: SSH_FXP_HANDLE, Size: 13, Number: 267
+> 2022-02-12 00:28:00.356 Type: SSH_FXP_READDIR, Size: 13, Number: 524
+< 2022-02-12 00:28:00.356 Type: SSH_FXP_NAME, Size: 925, Number: 524
+> 2022-02-12 00:28:00.356 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2022-02-12 00:28:00.356 Type: SSH_FXP_STATUS, Size: 28, Number: 780
+< 2022-02-12 00:28:00.356 Status code: 1
+> 2022-02-12 00:28:00.356 Type: SSH_FXP_CLOSE, Size: 13, Number: 1028
+. 2022-02-12 00:28:00.356 .bash_history;-;633;2022-02-10T03:38:30.000Z;3;"router" [1000];"router" [1000];rw-------;2
+. 2022-02-12 00:28:00.356 .bashrc;-;3771;2020-02-25T12:03:22.000Z;3;"router" [1000];"router" [1000];rw-r--r--;2
+. 2022-02-12 00:28:00.356 .bash_logout;-;220;2020-02-25T12:03:22.000Z;3;"router" [1000];"router" [1000];rw-r--r--;2
+. 2022-02-12 00:28:00.356 .cache;d;0;2022-02-08T15:03:40.000Z;3;"router" [1000];"router" [1000];rwx------;2
+. 2022-02-12 00:28:00.356 ..;d;0;2022-02-08T15:00:51.000Z;3;"root" [0];"root" [0];rwxr-xr-x;0
+. 2022-02-12 00:28:00.356 .profile;-;807;2020-02-25T12:03:22.000Z;3;"router" [1000];"router" [1000];rw-r--r--;2
+. 2022-02-12 00:28:00.356 .sudo_as_admin_successful;-;0;2022-02-08T15:03:54.000Z;3;"router" [1000];"router" [1000];rw-r--r--;2
+. 2022-02-12 00:28:00.387 Startup conversation with host finished.
+. 2022-02-12 00:30:05.620 [Background 1] Looking up host "10.0.0.4" for SSH connection
+. 2022-02-12 00:30:05.620 [Background 1] Connecting to 10.0.0.4 port 22
+. 2022-02-12 00:30:05.620 [Background 1] We claim version: SSH-2.0-WinSCP_release_5.19.5
+. 2022-02-12 00:30:05.637 [Background 1] Remote version: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.2
+. 2022-02-12 00:30:05.637 [Background 1] Using SSH protocol version 2
+. 2022-02-12 00:30:05.637 [Background 1] Have a known host key of type ssh-ed25519
+. 2022-02-12 00:30:05.637 [Background 1] Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2022-02-12 00:30:05.762 [Background 1] Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2022-02-12 00:30:05.777 [Background 1] Host key fingerprint is:
+. 2022-02-12 00:30:05.777 [Background 1] ssh-ed25519 255 29:68:9e:dd:65:3b:2c:1b:9e:69:15:11:6c:57:9f:24 Cp/W5hmKHuXuYRMLZXJeEbxa86cfxo5TxrTf4sAA9GQ=
+. 2022-02-12 00:30:05.777 [Background 1] Host key matches cached key
+. 2022-02-12 00:30:05.777 [Background 1] Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] outbound encryption
+. 2022-02-12 00:30:05.777 [Background 1] Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2022-02-12 00:30:05.777 [Background 1] Initialised AES-256 SDCTR (AES-NI accelerated) [aes256-ctr] inbound encryption
+. 2022-02-12 00:30:05.777 [Background 1] Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2022-02-12 00:30:05.777 [Background 1] Using username "router".
+. 2022-02-12 00:30:05.777 [Background 1] Server offered these authentication methods: publickey,password
+. 2022-02-12 00:30:05.777 [Background 1] Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2022-02-12 00:30:05.777 [Background 1] Using stored password.
+. 2022-02-12 00:30:05.777 [Background 1] Sent password
+. 2022-02-12 00:30:05.808 [Background 1] Access granted
+. 2022-02-12 00:30:05.808 [Background 1] Opening main session channel
+. 2022-02-12 00:30:06.387 [Background 1] Opened main channel
+. 2022-02-12 00:30:06.387 [Background 1] Started a shell/command
+. 2022-02-12 00:30:06.387 [Background 1] --------------------------------------------------------------------------
+. 2022-02-12 00:30:06.387 [Background 1] Using SFTP protocol.
+. 2022-02-12 00:30:06.387 [Background 1] Doing startup conversation with host.
+> 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_VERSION, Size: 179, Number: -1
+. 2022-02-12 00:30:06.387 [Background 1] SFTP version 3 negotiated.
+. 2022-02-12 00:30:06.387 [Background 1] Unknown server extension posix-rename@openssh.com="1"
+. 2022-02-12 00:30:06.387 [Background 1] Supports statvfs@openssh.com extension version "2"
+. 2022-02-12 00:30:06.387 [Background 1] Unknown server extension fstatvfs@openssh.com="2"
+. 2022-02-12 00:30:06.387 [Background 1] Supports hardlink@openssh.com extension version "1"
+. 2022-02-12 00:30:06.387 [Background 1] Unknown server extension fsync@openssh.com="1"
+. 2022-02-12 00:30:06.387 [Background 1] Unknown server extension lsetstat@openssh.com="1"
+. 2022-02-12 00:30:06.387 [Background 1] We believe the server has signed timestamps bug
+. 2022-02-12 00:30:06.387 [Background 1] We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2022-02-12 00:30:06.387 [Background 1] Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2022-02-12 00:30:06.387 [Background 1] Changing directory to "/home/router".
+. 2022-02-12 00:30:06.387 [Background 1] Getting real path for '/home/router'
+> 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_REALPATH, Size: 21, Number: 1296
+< 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_NAME, Size: 45, Number: 1296
+. 2022-02-12 00:30:06.387 [Background 1] Real path is '/home/router'
+. 2022-02-12 00:30:06.387 [Background 1] Trying to open directory "/home/router".
+> 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_LSTAT, Size: 21, Number: 1543
+< 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_ATTRS, Size: 37, Number: 1543
+. 2022-02-12 00:30:06.387 [Background 1] Getting current directory name.
+. 2022-02-12 00:30:06.387 [Background 1] Listing directory "/home/router".
+> 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_OPENDIR, Size: 21, Number: 1803
+< 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_HANDLE, Size: 13, Number: 1803
+> 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_READDIR, Size: 13, Number: 2060
+< 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_NAME, Size: 925, Number: 2060
+> 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_READDIR, Size: 13, Number: 2316
+< 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_STATUS, Size: 28, Number: 2316
+< 2022-02-12 00:30:06.387 [Background 1] Status code: 1
+> 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_CLOSE, Size: 13, Number: 2564
+. 2022-02-12 00:30:06.387 [Background 1] .bash_history;-;633;2022-02-10T03:38:30.000Z;3;"router" [1000];"router" [1000];rw-------;2
+. 2022-02-12 00:30:06.387 [Background 1] .bashrc;-;3771;2020-02-25T12:03:22.000Z;3;"router" [1000];"router" [1000];rw-r--r--;2
+. 2022-02-12 00:30:06.387 [Background 1] .bash_logout;-;220;2020-02-25T12:03:22.000Z;3;"router" [1000];"router" [1000];rw-r--r--;2
+. 2022-02-12 00:30:06.387 [Background 1] .cache;d;0;2022-02-08T15:03:40.000Z;3;"router" [1000];"router" [1000];rwx------;2
+. 2022-02-12 00:30:06.387 [Background 1] ..;d;0;2022-02-08T15:00:51.000Z;3;"root" [0];"root" [0];rwxr-xr-x;0
+. 2022-02-12 00:30:06.387 [Background 1] .profile;-;807;2020-02-25T12:03:22.000Z;3;"router" [1000];"router" [1000];rw-r--r--;2
+. 2022-02-12 00:30:06.387 [Background 1] .sudo_as_admin_successful;-;0;2022-02-08T15:03:54.000Z;3;"router" [1000];"router" [1000];rw-r--r--;2
+. 2022-02-12 00:30:06.387 [Background 1] Startup conversation with host finished.
+. 2022-02-12 00:30:06.387 [Background 1] Copying 1 files/directories to remote directory "/home/router/" - in parallel, with 1 total files - total size: 11,612,160
+. 2022-02-12 00:30:06.387 [Background 1]   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: Yes; Mask: *.*
+. 2022-02-12 00:30:06.387 [Background 1]   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2022-02-12 00:30:06.387 [Background 1]   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2022-02-12 00:30:06.387 [Background 1] File: 'C:\Users\meg-a\Desktop\merlin' [2022-02-12T06:24:50.215Z] [11612160]
+. 2022-02-12 00:30:06.387 [Background 1] Copying "C:\Users\meg-a\Desktop\merlin" to remote directory started.
+. 2022-02-12 00:30:06.387 [Background 1] Binary transfer mode selected.
+. 2022-02-12 00:30:06.387 [Background 1] Checking existence of file.
+> 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_LSTAT, Size: 28, Number: 2823
+< 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 2564
+. 2022-02-12 00:30:06.387 [Background 1] Discarding reserved response
+< 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_STATUS, Size: 29, Number: 2823
+< 2022-02-12 00:30:06.387 [Background 1] Status code: 2
+. 2022-02-12 00:30:06.387 [Background 1] Checking existence of partially transferred file.
+> 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_LSTAT, Size: 37, Number: 3079
+< 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_STATUS, Size: 29, Number: 3079
+< 2022-02-12 00:30:06.387 [Background 1] Status code: 2
+. 2022-02-12 00:30:06.387 [Background 1] Opening remote file.
+> 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_OPEN, Size: 53, Number: 3331
+< 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_HANDLE, Size: 13, Number: 3331
+> 2022-02-12 00:30:06.387 [Background 1] Type: SSH_FXP_WRITE, Size: 32761, Number: 3846
+. 2022-02-12 00:30:06.621 [Background 1] Increasing send buffer from 262144 to 524288
+. 2022-02-12 00:30:06.652 [Background 1] 681 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+> 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_CLOSE, Size: 13, Number: 94724
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 87558
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 87814
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 88070
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 88326
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 88582
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 88838
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 89094
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 89350
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 89606
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 89862
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 90118
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 90374
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 90630
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 90886
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 91142
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 91398
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 91654
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 91910
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 92166
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 92422
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 92678
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 92934
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 93190
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 93446
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 93702
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 93958
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 94214
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 94470
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+< 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 94724
+< 2022-02-12 00:30:06.652 [Background 1] Status code: 0
+> 2022-02-12 00:30:06.652 [Background 1] Type: SSH_FXP_RENAME, Size: 60, Number: 94994
+< 2022-02-12 00:30:06.668 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 94994
+< 2022-02-12 00:30:06.668 [Background 1] Status code: 0
+. 2022-02-12 00:30:06.668 [Background 1] Preserving timestamp [2022-02-12T06:24:50.000Z]
+> 2022-02-12 00:30:06.668 [Background 1] Type: SSH_FXP_SETSTAT, Size: 40, Number: 3593
+< 2022-02-12 00:30:06.668 [Background 1] Type: SSH_FXP_STATUS, Size: 24, Number: 3593
+< 2022-02-12 00:30:06.668 [Background 1] Status code: 0
+. 2022-02-12 00:30:06.668 [Background 1] Transfer done: 'C:\Users\meg-a\Desktop\merlin' => '/home/router/merlin' [11612160]
+. 2022-02-12 00:30:06.668 [Background 1] Copying finished: Transferred: 11,612,160, Elapsed: 0:00:00, CPS: 41,061,787/s
+. 2022-02-12 00:30:06.668 [Background 1] Listing directory "/home/router".
+> 2022-02-12 00:30:06.668 [Background 1] Type: SSH_FXP_OPENDIR, Size: 21, Number: 95243
+< 2022-02-12 00:30:06.668 [Background 1] Type: SSH_FXP_HANDLE, Size: 13, Number: 95243
+> 2022-02-12 00:30:06.668 [Background 1] Type: SSH_FXP_READDIR, Size: 13, Number: 95500
+< 2022-02-12 00:30:06.668 [Background 1] Type: SSH_FXP_NAME, Size: 1033, Number: 95500
+> 2022-02-12 00:30:06.668 [Background 1] Type: SSH_FXP_READDIR, Size: 13, Number: 95756
+< 2022-02-12 00:30:06.668 [Background 1] Type: SSH_FXP_STATUS, Size: 28, Number: 95756
+< 2022-02-12 00:30:06.668 [Background 1] Status code: 1
+> 2022-02-12 00:30:06.668 [Background 1] Type: SSH_FXP_CLOSE, Size: 13, Number: 96004
+. 2022-02-12 00:30:06.668 [Background 1] .bash_history;-;633;2022-02-10T03:38:30.000Z;3;"router" [1000];"router" [1000];rw-------;2
+. 2022-02-12 00:30:06.668 [Background 1] .bashrc;-;3771;2020-02-25T12:03:22.000Z;3;"router" [1000];"router" [1000];rw-r--r--;2
+. 2022-02-12 00:30:06.668 [Background 1] merlin;-;11612160;2022-02-12T06:24:50.000Z;3;"router" [1000];"router" [1000];rw-rw-r--;0
+. 2022-02-12 00:30:06.668 [Background 1] .bash_logout;-;220;2020-02-25T12:03:22.000Z;3;"router" [1000];"router" [1000];rw-r--r--;2
+. 2022-02-12 00:30:06.668 [Background 1] .cache;d;0;2022-02-08T15:03:40.000Z;3;"router" [1000];"router" [1000];rwx------;2
+. 2022-02-12 00:30:06.668 [Background 1] ..;d;0;2022-02-08T15:00:51.000Z;3;"root" [0];"root" [0];rwxr-xr-x;0
+. 2022-02-12 00:30:06.668 [Background 1] .profile;-;807;2020-02-25T12:03:22.000Z;3;"router" [1000];"router" [1000];rw-r--r--;2
+. 2022-02-12 00:30:06.668 [Background 1] .sudo_as_admin_successful;-;0;2022-02-08T15:03:54.000Z;3;"router" [1000];"router" [1000];rw-r--r--;2
+. 2022-02-12 00:30:07.089 Directory content loaded from cache.
+. 2022-02-12 00:30:37.495 Closing connection.
+. 2022-02-12 00:30:37.495 Sending special code: 1
+. 2022-02-12 00:30:37.495 Session sent command exit status 0
+. 2022-02-12 00:30:37.495 Main session channel closed
+. 2022-02-12 00:30:37.495 All channels closed
+. 2022-02-12 00:30:37.511 [Background 1] Closing connection.
+. 2022-02-12 00:30:37.511 [Background 1] Sending special code: 1
+. 2022-02-12 00:30:37.511 [Background 1] Session sent command exit status 0
+. 2022-02-12 00:30:37.511 [Background 1] Main session channel closed
+. 2022-02-12 00:30:37.511 [Background 1] All channels closed
