@@ -8,5 +8,10 @@
         "xmemory": "cpp",
         "xstring": "cpp"
     },
+    "workbench.colorCustomizations": {
+        "editorError.foreground":   "#ff000088",
+        "editorWarning.foreground": "#ffe60033",
+        "editorInfo.foreground":    "#00ff0088"
+    },
     "glassit.alpha": 220
 }
