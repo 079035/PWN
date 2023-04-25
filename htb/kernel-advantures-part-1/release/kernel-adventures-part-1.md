@@ -17,7 +17,7 @@ We're going to trick the kernel into thinking we're uid 0 (root) while we're onl
 
 We are interested in two methods: 
 
-```dev_write```: 
+dev_write: 
 ```c
 unsigned __int64 __fastcall dev_write(__int64 a1, const char *a2, unsigned __int64 a3)
 {
@@ -56,7 +56,7 @@ LABEL_10:
 
 ```
 
-and ```hash```:
+and hash:
 ```c
 __int64 __fastcall hash(const char *a1)
 {
@@ -111,7 +111,7 @@ Here, we can observe that the first four bytes of ```users``` is 0x03e8 and the 
 So we have to crack the hash of 0x03319f75.
 
 We can replicate the hash function using c:
-```hash.c```:
+
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -154,7 +154,7 @@ int main(void)
 ```
 
 and with angr, we can crack the hash:
-```crack_hash.py```:
+
 ```python
 import angr
 import sys
