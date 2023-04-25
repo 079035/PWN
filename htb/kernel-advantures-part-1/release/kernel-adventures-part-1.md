@@ -1,7 +1,10 @@
 ---
 title: "HTB Kernel Adventures: Part 1"
-date: 2023-03-08 18:27:30 -0400
-categories: Kernel
+tags: Kernel Pwn
+style: fill
+color: primary
+comments: true
+description: Double fetch / race condition
 ---
 
 # Kernel Adventures: Part 1
@@ -14,7 +17,7 @@ We're going to trick the kernel into thinking we're uid 0 (root) while we're onl
 
 We are interested in two methods: 
 
-```dev_write```:
+```dev_write```: 
 ```c
 unsigned __int64 __fastcall dev_write(__int64 a1, const char *a2, unsigned __int64 a3)
 {
@@ -50,6 +53,7 @@ LABEL_10:
     goto LABEL_9;
   return 0LL;
 }
+
 ```
 
 and ```hash```:
