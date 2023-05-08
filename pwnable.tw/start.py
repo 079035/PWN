@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 from pwn import *
 
-p=remote("chall.pwnable.tw",10000)
+p=remote("chall.pwnable.tw", 10000)
 # p=gdb.debug("./start", "b *0x804809c")
 p.recvuntil(b"CTF:")
 
