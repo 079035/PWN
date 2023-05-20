@@ -46,6 +46,6 @@ To execute one gadget, we need to call realloc- to satisfy the context needed.
 The fake chunk points to the malloc hook, and overwriting enough bites can overwrite realloc_hook as well since they are next to each other.
 So we put one gadget on realloc_hook.
 
-Finally, freeing twice(double free), triggers malloc -> malloc_hook ->  realloc_hook -> trigger one gadget -> shell.
+Finally, freeing twice(double free), triggers malloc -> malloc_hook -> realloc_hook -> trigger one gadget -> shell.
 
 ### Done
