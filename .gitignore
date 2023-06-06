@@ -21591,3 +21591,4 @@ htb/kernel1/release/var/spool
 htb/kernel1/release/var/tmp
 source-code/linux-5.4.63-1+drhlke.tar.xz
 *.parquet
+*.2
