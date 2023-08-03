@@ -1,6 +1,4 @@
 
-*.h
-*.c
 htb/kernel1/release/var/log
 *.qcow2
 dreamhack/tool-qemu/dh-lke/initramfs
