@@ -13,5 +13,6 @@
         "editorWarning.foreground": "#ffe60033",
         "editorInfo.foreground":    "#00ff0088"
     },
-    "glassit.alpha": 220
+    "glassit.alpha": 220,
+    "git.ignoreLimitWarning": true
 }
