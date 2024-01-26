@@ -9,8 +9,8 @@ context.terminal = ["tmux", "splitw", "-h", "-F" "#{pane_pid}", "-P"]
 e = ELF("./hash")
 dll = CDLL("/lib/x86_64-linux-gnu/libc.so.6")
 libc = ELF("/lib/i386-linux-gnu/libc.so.6")
-# p=process("./hash")
-p = remote("pwnable.kr", 9002)
+p=process("./hash")
+# p = remote("pwnable.kr", 9002)
 
 ru = lambda a: p.readuntil(a)
 r = lambda n: p.read(n)
