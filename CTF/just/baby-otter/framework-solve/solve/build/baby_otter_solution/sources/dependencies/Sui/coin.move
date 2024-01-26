@@ -418,7 +418,10 @@ module sui::coin {
     }
 
     // deprecated as we have CoinMetadata now
+<<<<<<< Updated upstream
     #[allow(unused_field)]
+=======
+>>>>>>> Stashed changes
     struct CurrencyCreated<phantom T> has copy, drop {
         decimals: u8
     }

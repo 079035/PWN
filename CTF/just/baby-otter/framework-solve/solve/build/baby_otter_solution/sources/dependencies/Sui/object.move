@@ -72,7 +72,10 @@ module sui::object {
 
     // === uid ===
 
+<<<<<<< Updated upstream
     #[allow(unused_function)]
+=======
+>>>>>>> Stashed changes
     /// Create the `UID` for the singleton `SuiSystemState` object.
     /// This should only be called once from `sui_system`.
     fun sui_system_state(ctx: &TxContext): UID {

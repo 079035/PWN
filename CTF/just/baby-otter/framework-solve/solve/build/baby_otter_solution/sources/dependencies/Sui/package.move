@@ -102,7 +102,10 @@ module sui::package {
         }
     }
 
+<<<<<<< Updated upstream
     #[lint_allow(self_transfer)]
+=======
+>>>>>>> Stashed changes
     /// Claim a Publisher object and send it to transaction sender.
     /// Since this function can only be called in the module initializer,
     /// the sender is the publisher.

@@ -65,7 +65,10 @@ module sui::tx_context {
         id
     }
 
+<<<<<<< Updated upstream
     #[allow(unused_function)]
+=======
+>>>>>>> Stashed changes
     /// Return the number of id's created by the current transaction.
     /// Hidden for now, but may expose later
     fun ids_created(self: &TxContext): u64 {

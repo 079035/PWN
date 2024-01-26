@@ -128,7 +128,10 @@ module sui::transfer_policy {
         )
     }
 
+<<<<<<< Updated upstream
     #[lint_allow(self_transfer, share_owned)]
+=======
+>>>>>>> Stashed changes
     /// Initialize the Tranfer Policy in the default scenario: Create and share
     /// the `TransferPolicy`, transfer `TransferPolicyCap` to the transaction
     /// sender.

@@ -118,7 +118,10 @@ module sui::balance {
         aborts_if balance.value != 0 with ENonZero;
     }
 
+<<<<<<< Updated upstream
     #[allow(unused_function)]
+=======
+>>>>>>> Stashed changes
     /// CAUTION: this function creates a `Balance` without increasing the supply.
     /// It should only be called by the epoch change system txn to create staking rewards,
     /// and nowhere else.
@@ -127,7 +130,10 @@ module sui::balance {
         Balance { value }
     }
 
+<<<<<<< Updated upstream
     #[allow(unused_function)]
+=======
+>>>>>>> Stashed changes
     /// CAUTION: this function destroys a `Balance` without decreasing the supply.
     /// It should only be called by the epoch change system txn to destroy storage rebates,
     /// and nowhere else.

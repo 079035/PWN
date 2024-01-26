@@ -6,8 +6,13 @@ use std::env;
 
 fn main() -> Result<(), Box<dyn Error>> {
 
+<<<<<<< Updated upstream
     let host = env::var("HOST").unwrap_or_else(|_| "127.0.0.1".to_string());
     let port = env::var("PORT").unwrap_or_else(|_| "31337".to_string());
+=======
+    let host = env::var("HOST").unwrap_or_else(|_| "babyotter.nc.jctf.pro".to_string());
+    let port = env::var("PORT").unwrap_or_else(|_| "1337".to_string());
+>>>>>>> Stashed changes
 
     match TcpStream::connect(format!("{}:{}", host, port)) {
         Ok(mut stream) => {

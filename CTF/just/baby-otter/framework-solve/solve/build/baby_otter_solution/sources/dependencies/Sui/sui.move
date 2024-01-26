@@ -27,7 +27,10 @@ module sui::sui {
     /// Name of the coin
     struct SUI has drop {}
 
+<<<<<<< Updated upstream
     #[allow(unused_function)]
+=======
+>>>>>>> Stashed changes
     /// Register the `SUI` Coin to acquire its `Supply`.
     /// This should be called only once during genesis creation.
     fun new(ctx: &mut TxContext): Balance<SUI> {
