@@ -1,8 +1,8 @@
-
+ctf/dice/dicedice*
 htb/kernel1/release/var/log
 *.qcow2
 *DEFCON/*
-
+ctf/rwctf*
 dreamhack/tool-qemu/dh-lke/initramfs
 dreamhack/tool-qemu/dh-lke/linux-5.4.63-1+drhlke/.clang-format
 dreamhack/tool-qemu/dh-lke/linux-5.4.63-1+drhlke/.cocciconfig
