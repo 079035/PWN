@@ -38424,3 +38424,8 @@ ctf/hofstra/HuAmazonCTF23/HuAmazonCTF23/Q114/php_save.tar
 ctf/hofstra/Solution.md
 .gitignore~
 ..gitignore.un~
+ctf/kalmar/beautify-me/Dockerfile
+ctf/kalmar/beautify-me/exp.py
+ctf/kalmar/beautify-me/json
+ctf/kalmar/beautify-me/main.c
+ctf/kalmar/beautify-me/main.h
