@@ -38429,3 +38429,10 @@ ctf/kalmar/beautify-me/exp.py
 ctf/kalmar/beautify-me/json
 ctf/kalmar/beautify-me/main.c
 ctf/kalmar/beautify-me/main.h
+ctf/tet/pwn01/setup/init.sql
+ctf/tet/pwn01/setup/images/pwn01_frontend.tar
+ctf/tet/pwn01/setup/images/pwn01_backend.tar
+ctf/tet/pwn01/setup/flag
+ctf/tet/pwn01/setup/docker-compose.yml
+ctf/tet/pwn01/setup/.env
+ctf/tet/pwn01.7z
